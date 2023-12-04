@@ -1,5 +1,6 @@
 import "./app.scss"
 import Navbar from "./components/navbar/Navbar"
+import Profile from "./components/profile/Profile"
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
     <div>
       <section id="Home">
         <Navbar />
+        <Profile />
       </section>
       <section id="Habilidades"><a href="">Habilidades</a></section>
       <section id="Portfolio"><a href="">Portfolio</a></section>
