@@ -46,8 +46,9 @@
         justify-content: space-between;
         
         span{
-            width: 100%;
+            width: 20px;
             height: 3px;
+            margin-left: -3px;
             background-color: #15023a;
         }
     }
