@@ -22,7 +22,7 @@ const Profile = () => {
     <div className='profile'>
         <motion.div className='text-container' variants={textVariants}  initial='initial' animate='animate'>
             <motion.h2 variants={textVariants}>Mauricio Oliveira</motion.h2>
-            <motion.h1 variants={textVariants}>Desenvolvedor web</motion.h1>
+            <motion.h1 variants={textVariants}>Desenvolvedor Web</motion.h1>
             <motion.div className='buttons' variants={textVariants}>
                 <motion.button>Projetos</motion.button>
                 <motion.button>Contato</motion.button>
