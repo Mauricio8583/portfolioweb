@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const Links = () => {
 
-  const itens = ['Home','Habilidades','Portfolio','Contato','Sobre']
+  const itens = ['Home','Habilidades','Portfolio','Contato']
 
   const variants = {
     open: {
