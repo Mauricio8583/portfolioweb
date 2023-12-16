@@ -2,7 +2,6 @@ import { useRef } from 'react'
 import './contact.scss'
 import {motion, useInView} from 'framer-motion'
 import emailjs from '@emailjs/browser'
-import { public_key, service_key, template_key } from '../../keys'
 
 const variants = {
     initial: {
@@ -27,7 +26,7 @@ const Contact = () => {
    const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(service_key, template_key, form.current, public_key).then((result) => {
+    emailjs.sendForm('service_e9t1fq3', 'template_jic7t1m', form.current, 'vqvEXXhzsf5l_cSPb').then((result) => {
         console.log(result.text)
     }, (error) => {
         console.log(error.text)
