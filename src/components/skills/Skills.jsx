@@ -1,12 +1,10 @@
 import { useRef } from 'react'
 import './skills.scss'
-import { motion, useInView } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
 
    const ref = useRef();
-
-   const isInView = useInView(ref, {margin: '-100px'});
 
    const variants = {
     initial: {
@@ -26,7 +24,7 @@ const Skills = () => {
    }
 
   return (
-    <motion.div className='skills' variants={variants} initial='initial' animate={isInView && 'animate'} ref={ref}>
+    <motion.div className='skills' variants={variants} initial='initial' animate='animate' ref={ref}>
         <motion.div className='textContainer' variants={variants}>
             <p>Desenvolvedor Júnior <br />
             Estudante de Tecnologia</p>

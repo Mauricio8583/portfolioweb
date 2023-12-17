@@ -20,7 +20,8 @@
             width: 100%;
             gap: 20px;
             align-items: center;
-            text-align: center;
+            text-align: left;
+            margin-right: 60px;
         }
 
         h2{
@@ -33,7 +34,9 @@
             font-size: 84px;
 
             @include mobile{
-                font-size: 36px;
+                font-size: 26px;
+                text-align: left;
+                margin-right: 200px;
             }
         }
 
@@ -47,6 +50,12 @@
                 margin-right: 20px;
                 font-weight: 300;
                 cursor: pointer;
+                
+            }
+
+            @include mobile{
+                margin-right: 200px;
+                display: flex;
             }
         }
     }
@@ -58,9 +67,9 @@
         right: 60px;
 
         @include mobile{
-            height: 50%;
+            height: 30%;
             width: 60%;
-            top: unset;
+            top: 500px;
             bottom: 0;
             left: 40px;
             border-radius: 20%;
