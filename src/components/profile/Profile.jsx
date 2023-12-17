@@ -18,14 +18,15 @@ const Profile = () => {
     }
   }
 
+  
   return (
     <div className='profile'>
         <motion.div className='text-container' variants={textVariants}  initial='initial' animate='animate'>
             <motion.h2 variants={textVariants}>Mauricio Oliveira</motion.h2>
             <motion.h1 variants={textVariants}>Desenvolvedor Web</motion.h1>
             <motion.div className='buttons' variants={textVariants}>
-                <motion.button>Projetos</motion.button>
-                <motion.button>Contato</motion.button>
+                <motion.button><a href='#Portfolio'>Projetos</a></motion.button>
+                <motion.button><a href='#Contato'>Contato</a></motion.button>
             </motion.div>
            </motion.div>        
         
